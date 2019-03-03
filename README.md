@@ -33,7 +33,7 @@ use link to see the web  page <https://vanmo9.github.io/Pig-dice/>
 ## Contact Information
 
 - Email (vanmowha@gmail.com)
-- Instergram (vanmowha9)
+- Instergram  (vanmowha9)
 
 ## License
 
