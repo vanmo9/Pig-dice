@@ -11,13 +11,11 @@
 </head>
 
 <body>
+
   <div class="container">
     <div class="jumbotron">
-      <form>
-        <div>
-          <h6 id="heading1">sign up</h6>
-        </div>
-        <div id="sign">
+      <div id="hidden1">
+        <form>
           <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -31,47 +29,50 @@
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Check me out</label>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </div>
-      </form>
-      <h5>Welcome to pig dice the Interesting Game</h5>
-      <h4>PIG DICE GAME</h4>
-      <div class="col-md-4">
-        <div class="well">
-          <label for="">PALYER 1:</label>
-          <h3 id="playerOneName"></h3>
-
-          <label for="">Total Points</label>
-          <h3 id="total-1">0</h3>
-
-          <label for="">Dice Roll</label>
-          <h2 id="roll-1">0</h2>
-
-          <label for="">Current Score</label>
-          <h2 id="total-roll-1">0</h2>
-
-        </div>
+          <button type="button" class="btn btn-primary" id="start">Submit</button>
+        </form>
       </div>
-      <div class="mo">
-        <div class="col-md-3">
-          <button id="rolling" class="btn btn-primary">Roll</button>
-          <button id="Pass" class="btn btn-primary">Pass</button>
-          <input id="reset" type="button" class="btn btn-primary" value="New Game" onclick="reset()">
+      <div class="game">
+        <h5>Welcome to pig dice the Interesting Game</h5>
+        <h4>PIG DICE GAME</h4>
+        <div class="col-md-4">
+          <div class="well">
+            <label for="">PALYER 1:</label>
+            <h3 id="playerOneName"></h3>
+
+            <label for="">Total Points</label>
+            <h3 id="total-1">0</h3>
+
+            <label for="">Dice Roll</label>
+            <h2 id="roll-1">0</h2>
+
+            <label for="">Current Score</label>
+            <h2 id="total-roll-1">0</h2>
+
+          </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="well">
-          <label for="">PALYER 2:</label>
-          <h3 id="playerTwoName"></h3>
+        <div class="mo">
+          <div class="col-md-3">
+            <button id="rolling" class="btn btn-primary">Roll</button>
+            <button id="Pass" class="btn btn-primary">Pass</button>
+            <input id="reset" type="button" class="btn btn-primary" value="New Game" onclick="reset()">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="well">
+            <label for="">PALYER 2:</label>
+            <h3 id="playerTwoName"></h3>
 
-          <label for="">Total Points </label>
-          <h3 id="total-2">0</h3>
+            <label for="">Total Points </label>
+            <h3 id="total-2">0</h3>
 
-          <label for="">Dice Roll</label>
-          <h2 id="dice-roll-2">0</h2>
+            <label for="">Dice Roll</label>
+            <h2 id="dice-roll-2">0</h2>
 
-          <label for="">Current Score</label>
-          <h2 id="round-2">0</h2>
+            <label for="">Current Score</label>
+            <h2 id="round-2">0</h2>
+
+          </div>
 
         </div>
       </div>

@@ -1,7 +1,6 @@
 $(document).ready(function() {
-      $("#heading1").click(function() {
-        $("#sign").slideToggle();
-      });
-//       $("#heading1").click(function(){
-//     $("#hidden1").slideToggle();
-// });
+  $("button#start").click(function() {
+    $("div.game").toggle();
+    $("div#hidden1").hide();
+  });
+});
