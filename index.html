@@ -16,6 +16,7 @@
     <div class="jumbotron">
       <div id="hidden1">
         <form>
+          <p>Sign in below to play the game </p>
           <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -34,7 +35,7 @@
       </div>
       <div class="game">
         <h5>Welcome to pig dice the Interesting Game</h5>
-        <h4>PIG DICE GAME</h4>
+        <h4> <button id="play" class="btn btn-primary">PIG DICE GAME</h4></button>
         <div class="col-md-4">
           <div class="well">
             <label for="">PALYER 1:</label>
@@ -53,9 +54,15 @@
         </div>
         <div class="mo">
           <div class="col-md-3">
-            <button id="rolling" class="btn btn-primary">Roll</button>
-            <button id="Pass" class="btn btn-primary">Pass</button>
-            <input id="reset" type="button" class="btn btn-primary" value="New Game" onclick="reset()">
+            <div class="urban">
+              <button id="rolling" class="btn btn-primary">Roll Dice </button>
+            </div>
+            <div class="urban">
+              <button id="Pass" class="btn btn-primary">Pass Turn </button>
+            </div>
+            <div class="urban">
+              <input id="reset" type="button" class="btn btn-primary" value="New Game" onclick="reset()">
+            </div>
           </div>
         </div>
         <div class="col-md-4">
