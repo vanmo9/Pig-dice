@@ -30,11 +30,12 @@
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Check me out</label>
           </div>
-          <button type="button" class="btn btn-primary" id="start">Submit</button>
+          <button type="button" class="btn btn-primary" id="start">Sign in</button>
         </form>
       </div>
       <div class="game">
-        <h5>Welcome to pig dice the Interesting Game</h5>
+        <h5>WELCOME TO PIG DICE THE INTRESTING GAME</h5>
+        <img src="https://hellfiredesigns.files.wordpress.com/2012/09/rollin_d61.gif?w=1400" alt="dice image">
         <h4> <button id="play" class="btn btn-primary">PIG DICE GAME</h4></button>
         <div class="col-md-4">
           <div class="well">
@@ -61,10 +62,14 @@
               <button id="Pass" class="btn btn-primary">Pass Turn </button>
             </div>
             <div class="urban">
+              <input id="reset" type="button" class="btn btn-primary" value="Quit Game" onclick="reset()">
+            </div>
+            <div class="urban">
               <input id="reset" type="button" class="btn btn-primary" value="New Game" onclick="reset()">
             </div>
           </div>
         </div>
+
         <div class="col-md-4">
           <div class="well">
             <label for="">PALYER 2:</label>
@@ -82,6 +87,7 @@
           </div>
 
         </div>
+
       </div>
     </div>
 
