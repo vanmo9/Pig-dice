@@ -38,6 +38,6 @@ $("#rolling").click(function() {
   }
 });
 $('#Pass').click(function() {
-  document.getElementById('total-2').innerHTML = score2;
+  document.getElementById('total-2').innerHTML = score2; 
   score2 = 0;
 });
