@@ -34,11 +34,19 @@ h6 {
 p {
   font-style: italic;
 }
+
 .urban {
   margin-bottom: 2em;
   margin-top: 3em;
   text-align: center;
 }
-img {
 
+img {
+  margin-left: 34em;
+  width: 80px;
+  height: 80px;
+}
+h5 {
+  font-size: 35px;
+  font-style: oblique;
 }
